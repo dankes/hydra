@@ -12,7 +12,7 @@
         <param-value>
             classpath*:hydra-manager-db.xml
             <!-- 使用hbase存储 -->
-            classpath*:hydra-hbase.xml
+            classpath*:hydra-mysql.xml
             <!-- 使用mysql存储 -->
             <!--classpath*:hydra-mysql.xml-->
         </param-value>

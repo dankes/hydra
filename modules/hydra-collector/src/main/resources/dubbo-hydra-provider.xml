@@ -23,7 +23,7 @@
     <!-- bean id="hydraService" class="com.jd.bdp.hydra.dubbomonitor.provider.impl.HydraServiceImpl"/-->
     <!-- 如果数据量不大，直接使用mysql进行存储，不再经过队列 -->
     <!--<import resource="classpath*:hydra-mysql.xml" />-->
-    <bean id="hydraService" class="com.jd.bdp.hydra.dubbomonitor.provider.impl.HydraMysqlServiceImpl"/>
+    <bean id="hydraService" class="com.jd.bdp.hydra.dubbomonitor.provider.impl.HydraServiceImpl"/>
     <dubbo:service interface="com.jd.bdp.hydra.dubbomonitor.HydraService" ref="hydraService">
     </dubbo:service>
 </beans>
