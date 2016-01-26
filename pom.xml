@@ -22,13 +22,6 @@
     <description></description>
     <url></url>
 
-    <!-- scm待定 -->
-    <scm>
-        <connection>scm:git:https://github.com/jd-bdp/hydra.git</connection>
-        <url>scm:git:https://github.com/jd-bdp/hydra.git</url>
-        <developerConnection>scm:git:https://github.com/jd-bdp/hydra.git</developerConnection>
-    </scm>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -91,21 +84,21 @@
         <fastjson.version>1.1.28</fastjson.version>
         <jsp-api.version>2.1</jsp-api.version>
         <jstl-api.version>1.2</jstl-api.version>
-        <dubbo.version>2.4.8-SNAPSHOT</dubbo.version>
+        <dubbo.version>2.4.8</dubbo.version>
         <validation-api.version>1.0.0.GA</validation-api.version>
         <metamorphosis.version>1.4.3</metamorphosis.version>
         <disruptor.version>2.10.3</disruptor.version>
         <glowworm.version>1.0-SNAPSHOT</glowworm.version>
         <slf4j.version>1.6.4</slf4j.version>
         <log4j.version>1.2.15</log4j.version>
-        <hessian.version>3.2.2</hessian.version>
+        <hessian.version>3.1.5</hessian.version>
         <zkclient.version>0.1</zkclient.version>
         <mybatis.version>3.0.6</mybatis.version>
         <mybatis-spring>1.0.0</mybatis-spring>
         <mysql-connector-java.version>5.1.22</mysql-connector-java.version>
         <google-collections.version>1.0</google-collections.version>
-        <hadoop-common.version>bdp-2.0.0-cdh4.1.1</hadoop-common.version>
-        <hbase.version>bdp-0.92.1-cdh4.1.1</hbase.version>
+        <hadoop-common.version>2.2.0</hadoop-common.version>
+        <hbase.version>0.92.1</hbase.version>
         <commons-configuration.version>1.9</commons-configuration.version>
         <commons-lang.version>2.6</commons-lang.version>
         <druid.version>0.2.17</druid.version>
@@ -524,6 +517,14 @@
 
     <!-- glowworm序列化组建上传到这个maven仓库中 -->
     <repositories>
+    
+        <repository>
+            <id>maven-repo</id>
+            <url>
+                http://repo1.maven.apache.org/maven2
+            </url>
+        </repository>
+        
         <repository>
             <id>sonatype</id>
             <url>

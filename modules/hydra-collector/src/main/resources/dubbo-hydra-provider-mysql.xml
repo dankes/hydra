@@ -29,7 +29,7 @@
         <constructor-arg ref="configuration"/>
     </bean>
     <dubbo:application name="${dubbo.application.name}" owner="${dubbo.application.owner}"/>
-    <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}"/>
+    <dubbo:registry address="${dubbo.registry.address}"/>
     <dubbo:protocol name="${dubbo.protocol.name}" port="${dubbo.protocol.port}"/>
     <dubbo:service interface="com.jd.bdp.hydra.dubbomonitor.HydraService" ref="hydraService">
     </dubbo:service>

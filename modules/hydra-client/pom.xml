@@ -13,6 +13,14 @@
     <artifactId>hydra-client</artifactId>
     <packaging>jar</packaging>
     <name>HYDRA CLIENT</name>
+    <repositories>
+        <repository>
+            <id>maven-repo</id>
+            <url>
+                http://repo1.maven.apache.org/maven2
+            </url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
